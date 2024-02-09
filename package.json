@@ -1,0 +1,38 @@
+{
+  "name": "vectore_db",
+  "version": "0.1.1",
+  "keywords": [
+    "vectore",
+    "embedding",
+    "webassembly",
+    "rust",
+    "library",
+    "web",
+    "npm",
+    "vectore database",
+    "javascript",
+    "typescript",
+    "wasm"
+
+  ],
+  "description": "Embedding Rust library in WebAssembly for use in web apps.",
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/your_username/vectore-db/issues"
+  },
+  "homepage": "https://github.com/your_username/vectore-db#readme",
+
+
+
+  "files": [
+    "vectore_node_bg.wasm",
+    "vectore_node.js",
+    "vectore_node.d.ts"
+  ],
+  "module": "vectore_node.js",
+  "types": "vectore_node.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
