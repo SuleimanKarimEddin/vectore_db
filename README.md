@@ -8,7 +8,7 @@
 
 Check out this demo video to see `vectore-db` in action:
 
-[![Demo Video](WebAssembly_Logo.svg.png)](demo.mp4)
+![Demo Video](demo.gif)
 
 ## Features
 
@@ -72,7 +72,7 @@ await vector_store.similar_words("color", 1); // Get similar words to the input 
 
 To transform text into embeddings, you can set up an embedding server. The default server provided by our library has limited resources. Please note that the first request to the server may incur a wait time of 50 seconds due to rendering policy. However, if you prefer to use your own server, you can follow the example provided at the following URL:
 
-[Example Embedding Server Configuration](url)
+[Example Embedding Server Configuration](https://github.com/SuleimanKarimEddin/embadding)
 
 After configuring your own server, initialize the library with the server URL and the length of the embedding vector. For example:
 

@@ -16,12 +16,12 @@
 
   ],
   "description": "Embedding Rust library in WebAssembly for use in web apps.",
-  "author": "Your Name",
+  "author": "suleiman karim eddin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/your_username/vectore-db/issues"
+    "url": "https://github.com/SuleimanKarimEddin/vectore_db/issues"
   },
-  "homepage": "https://github.com/your_username/vectore-db#readme",
+  "homepage": "https://github.com/SuleimanKarimEddin/vectore_db#readme",
 
 
 
